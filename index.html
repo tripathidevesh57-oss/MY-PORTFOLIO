@@ -1,0 +1,171 @@
+<!DOCTYPE.html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>my portfolio website</title>
+<link rel="stylesheet" href="des.css">
+
+</head>
+<body>
+<nav class="navigationbar">
+<button class="tab-button active " onclick="showContent('home')">HOME</button>
+<button class="tab-button " onclick="showContent('about-me')">ABOUT ME</button>
+<button class="tab-button " onclick="showContent('my-projects')">MY PROJECTS</button>
+<button class="tab-button " onclick="showContent('skills')">SKILLS</button>
+<button class="tab-button " onclick="showContent('contacts')">CONTACTS</button>
+
+</nav>
+
+<main class="main container">
+<section id="home" class="tab-content active ">
+    <div class="home-content">
+        <div class="home-text">
+<h1>Welcome to my portfolio website</h1>
+<p>Building modern, responsive, and high-performance digital experiences from the ground up.</p></div>
+
+<div class="home-image">
+    <img src="data/imggg.jpeg" alt="profile-picture" class="floating-image">
+</div>
+</div>
+
+
+</section>
+
+
+
+<section id="about-me" class="tab-content ">
+    <div class="card-box">
+<h1>ABOUT ME</h1>
+<p>My name is Devesh Tripathi.I am a B.Tech student who is trying to improve myself academically and personally.
+         I am curious and like to understand concepts deeply rather than just memorize them. 
+         Sometimes I overthink and doubt myself even after understanding something, but I keep 
+         asking questions until I become clear. I am interested in programming and technology, and 
+         I am continuously learning new skills. I know I still have many things to improve, but I 
+        am working on myself and trying to become more confident, knowledgeable, and disciplined.</p>
+</div>
+</section>
+
+<section id="my-projects" class="tab-content" ; style="overflow-y:scroll;">
+ <div class="card-box">
+<h1>MY PROJECTS</h1>
+<p>My project is a simple and practical solution designed to solve a specific problem using technology.</p>
+<h4>SIMPLE CALCULATOR:</h4>
+<p>It is simple calculator made by me which performs several airthmatic operations.</p>
+<a href="https://github.com/tripathidevesh57-oss/Simple-calculator"  target="_blank">GO TO GITHUB</a>
+<br><br>
+<h4>FLAPPING BIRD:</h4>
+<P>My Flapping Bird Website is a simple browser-based game developed using HTML, CSS, and
+     JavaScript. The project recreates a bird-flying game where the player controls the bird, 
+     avoids obstacles, and tries to achieve a high score while practicing JavaScript game logic
+      and web development skills.</P>
+<a href="https://github.com/tripathidevesh57-oss/FLAPPING-BIRD-">GO TO GITHUB</a>
+<br><br>
+
+<h4>FLOWERS:</h4>
+<P>My Flowers Website is a simple and attractive website created using HTML
+    , CSS, and JavaScript. It showcases different types of flowers with a 
+    clean design and interactive features, helping me practice my web development
+    and front-end skills.</P>
+
+<a href="https://github.com/tripathidevesh57-oss/FLOWERS-WEBPAGE" >GO TO GITHUB</a>   
+
+</div>
+</section>
+
+
+<section id="skills" class="tab-content">
+ <div class="card-box">
+<h1>SKILLS</h1>
+<p><strong>language:</strong>c,c++,python</p>
+<p><strong>frontend development:</strong>html,css,javascript</p>
+<p><strong>Data Structures & Algorithms:</strong>Structures & Algorithms: Arrays, searching, sorting, recursion</p>
+<p><strong>Tools:</strong>Tools: VS Code, Git, GitHub</p>
+</div>
+</section>
+
+<section id="contacts" class="tab-content">
+ <div class="card-box">
+<h1>CONTACTS</h1>
+<li><strong>Mobile no.</strong>:9125501247</li><br>
+<li><strong>E-mail</strong>:tripathidevesh57@gmail.com</li><br>
+<li>Linkedin:<a href="https://www.linkedin.com/feed/" target="_blank">linkedin</a></li><br>
+<li>Github link:<a href="https://github.com/tripathidevesh57-oss" target="_blank">github</a></li><br>
+<h6 style="padding-left:350px; padding-top:240px;">Thanks to visit</h6>
+</div>
+</section>
+
+</main>
+<div class="video">
+<video autoplay muted loop id="bg-video";>
+    <source src="data/video.mp4" type="video/mp4">
+</video>
+
+
+
+</div>
+<script>
+    function showContent(sectionId) {
+ const sections=document.querySelectorAll('.tab-content');
+ sections.forEach(section=>{section.classList.remove('active');});
+
+ const buttons=document.querySelectorAll('.tab-button');
+ buttons.forEach(button=>{button.classList.remove('active');});
+
+ const targetSection=document.getElementById(sectionId);
+ if(targetSection)
+ {
+    targetSection.classList.add('active');
+ }
+
+ const clickedButton=event.currentTarget;
+ if(clickedButton)
+ {
+    clickedButton.classList.add('active');
+ }
+    }
+</script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
