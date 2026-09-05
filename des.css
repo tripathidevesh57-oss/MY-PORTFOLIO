@@ -9,7 +9,12 @@ body {
     overflow: hidden;
    
 }
-
+#contacts{
+    overflow:hidden;
+}
+#home{
+    overflow:hidden;
+}
 
 .tab-content {
     display: none;
