@@ -1,10 +1,15 @@
 body {
+
+  box-sizing: border-box;
+  max-width: 100%;
+
     color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
     overflow: hidden;
    
 }
+
 
 .tab-content {
     display: none;
