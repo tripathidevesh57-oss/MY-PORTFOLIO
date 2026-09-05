@@ -117,7 +117,7 @@ body {
     animation: float 4s ease-in-out infinite;
     border: #000000;
     border-width: 10px;
-    margin-right: 40px; /* Add this line to shift it left (adjust the pixels as needed) */
+    margin-right: 55px; /* Add this line to shift it left (adjust the pixels as needed) */
 }
 
 @keyframes float {
