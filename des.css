@@ -117,7 +117,7 @@ body {
     animation: float 4s ease-in-out infinite;
     border: #000000;
     border-width: 10px;
-    margin-right: 130px; /* Add this line to shift it left (adjust the pixels as needed) */
+    margin-right: 55px; /* Add this line to shift it left (adjust the pixels as needed) */
 }
 
 @keyframes float {
@@ -179,10 +179,10 @@ li::marker{
 }
 #welcome{
     font-size:35px;
-    margin-right:80px;
+   
 }
 #ss{
     font-size:20px;
-     margin-right:80px;
+    
 }/* If your parent container looks like this, add flex-direction: column for mobile */
 
